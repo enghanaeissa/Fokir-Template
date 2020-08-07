@@ -1,0 +1,284 @@
+/* body style */
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* home section style */
+
+.home-section
+{
+    background-image: url("img/cover.webp");
+    background-size: cover;
+    height: 650px;
+    
+}
+.header
+{
+    margin: 15px;
+    width: 90%;
+    height: 5%;
+}
+/*none decoration for all links*/
+a
+{
+    text-decoration: none;
+}
+/*none style for all list items*/
+li
+{
+    list-style: none;
+}
+/* logo style */
+.logo
+{
+    width: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.logo-txt
+{
+    color:brown;
+    float: left;
+    margin-left: 10px;
+}
+
+.nav-ul
+{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    float: right;
+}
+.nav-links
+{
+    color: white;
+    font-weight: 500;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.home-link
+{
+    color: brown;
+    font-size: larger;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.home-link:hover
+{
+    color: rgb(15, 113, 131);
+}
+
+.nav-links:hover
+{
+    color: brown;
+}
+.job-title
+{
+    color: rgb(90, 15, 5);
+    text-align: center;
+    font-size: larger;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    margin-left: 40%;
+    margin-top: 20%;
+    position: absolute;
+}
+
+.cv-section
+{
+    background-color: rgb(224, 219, 219);
+    margin: 1px;
+}
+.cv-container
+{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cv
+{
+    width: 32%;
+    font-size: large;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ul-profile, .cv-email
+{
+    color: rgb(66, 63, 63);
+}
+.ul-profile
+{
+    display: flex;
+}
+span
+{
+    color: black;
+}
+.btn
+{
+    background-color: rgb(216, 102, 172);
+    display: inline;
+    margin: 40px;
+    padding: 10px;
+}
+.Download-cv-btn, .hire-btn
+{
+    color: honeydew;
+}
+.service-section
+{
+    background-color: rgb(249, 252, 252);
+    margin: 1px;
+    padding: 50px;
+    height: 100%;
+}
+.section-title
+{
+    text-align: center; 
+    font-weight: 700;
+    font-size: larger;
+}
+.service-container
+{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+.single-service
+{
+    width: 20%;
+}
+.portfolio-section
+{
+    margin: 1px;
+    padding: 20px;
+}
+.portfolio-images
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.portfolio
+{
+    width: 500px;
+    height: 500px;
+}
+
+.count-section
+{
+    background-color: rgba(231, 227, 227, 0.973);
+    padding: 20px;
+    text-align: center;
+}
+.count-container
+{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.blog-section
+{
+    margin-top: 80px;
+}
+.content
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.blog
+{
+    width: 300px;
+}
+.img
+{
+    width: 350px;
+    height: 300px;
+}
+.read-more
+{
+    color: rgb(150, 9, 37);
+}
+.contact-section
+{
+    background-color:rgb(195, 199, 201) ;
+    padding: 20px;
+    margin-top: 50px;
+    color: black;
+    height: 570px;
+    align-content: center;
+}
+.contact-form
+{
+    margin-left: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+.personal-details
+{
+    padding: 20px;
+    width: 400px;
+    margin: 10px;
+}
+.Object
+{
+    width: 870px;
+    margin: 10px;
+    padding: 20px;
+    display: block;
+}
+.text-area
+{
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+}
+.form-title
+{
+    color: rgb(214, 87, 150);
+    text-align: center;
+    font-weight: 500;
+}
+.submit-btn
+{
+    display: block;
+    background-color: rgb(214, 87, 150);
+    color: whitesmoke;
+    font-size: larger;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+    width: 300px;
+}
+.submit-btn:hover
+{
+    background-color: violet;
+    color: brown;
+}
+.copyright
+{
+    background-color: rgb(44, 48, 53);
+    height: 50px;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 10px;
+    font-size: larger;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.copy-link
+{
+    color: rgb(214, 87, 150);
+}
